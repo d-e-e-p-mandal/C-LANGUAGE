@@ -1,3 +1,2082 @@
+```
+C PROGRAMMING — 100% COMPLETE ECOSYSTEM
+│
+├── 🟦 GROUP 01 — C LANGUAGE FOUNDATION
+│   ├── 01. C LANGUAGE BASICS
+│   │   ├── C Syntax
+│   │   ├── Program Structure
+│   │   ├── main()
+│   │   ├── Statements and Blocks
+│   │   ├── Comments
+│   │   └── Semicolons and Braces
+│   │
+│   ├── 02. C TOKENS
+│   │   ├── Keywords
+│   │   ├── Identifiers
+│   │   ├── Constants
+│   │   ├── String Literals
+│   │   ├── Operators
+│   │   └── Punctuators
+│   │
+│   ├── 03. VARIABLES & CONSTANTS
+│   │   ├── Variables
+│   │   ├── Constants
+│   │   ├── Literals
+│   │   ├── Initialization
+│   │   ├── Assignment
+│   │   └── Object Definitions
+│   │
+│   └── 04. PROGRAM ENTRY & ARGUMENTS
+│       ├── main()
+│       ├── argc
+│       ├── argv
+│       ├── Return Status
+│       └── Program Environment
+│
+├── 🟦 GROUP 02 — C DATA TYPES
+│   ├── 05. FUNDAMENTAL TYPES
+│   │   ├── char
+│   │   ├── short
+│   │   ├── int
+│   │   ├── long
+│   │   ├── long long
+│   │   ├── float
+│   │   ├── double
+│   │   ├── long double
+│   │   └── void
+│   │
+│   ├── 06. INTEGER TYPES
+│   │   ├── Signed Integers
+│   │   ├── Unsigned Integers
+│   │   ├── Integer Rank
+│   │   ├── Integer Width
+│   │   └── Integer Representation
+│   │
+│   ├── 07. CHARACTER TYPES
+│   │   ├── char
+│   │   ├── signed char
+│   │   ├── unsigned char
+│   │   ├── wchar_t
+│   │   ├── char8_t
+│   │   ├── char16_t
+│   │   └── char32_t
+│   │
+│   ├── 08. BOOLEAN TYPES
+│   │   ├── _Bool
+│   │   ├── bool
+│   │   ├── true
+│   │   └── false
+│   │
+│   └── 09. DERIVED & USER TYPES
+│       ├── Arrays
+│       ├── Pointers
+│       ├── Functions
+│       ├── Structures
+│       ├── Unions
+│       ├── Enumerations
+│       └── typedef
+│
+├── 🟦 GROUP 03 — TYPE QUALIFIERS & TYPE SYSTEM
+│   ├── 10. TYPE QUALIFIERS
+│   │   ├── const
+│   │   ├── volatile
+│   │   ├── restrict
+│   │   └── _Atomic
+│   │
+│   ├── 11. TYPE CONVERSION
+│   │   ├── Implicit Conversion
+│   │   ├── Integer Promotions
+│   │   ├── Usual Arithmetic Conversions
+│   │   ├── Pointer Conversion
+│   │   └── Qualification Conversion
+│   │
+│   ├── 12. TYPE CASTING
+│   │   ├── Explicit Cast
+│   │   ├── Integer Casting
+│   │   ├── Floating-Point Casting
+│   │   ├── Pointer Casting
+│   │   └── Dangerous Casts
+│   │
+│   └── 13. TYPE TRAITS & TYPE INFORMATION
+│       ├── sizeof
+│       ├── _Alignof
+│       ├── offsetof
+│       ├── Type Compatibility
+│       └── C23 typeof / typeof_unqual
+│
+├── 🟦 GROUP 04 — OPERATORS & EXPRESSIONS
+│   ├── 14. ARITHMETIC OPERATORS
+│   │   ├── Addition
+│   │   ├── Subtraction
+│   │   ├── Multiplication
+│   │   ├── Division
+│   │   └── Modulo
+│   │
+│   ├── 15. COMPARISON & LOGICAL
+│   │   ├── Relational Operators
+│   │   ├── Equality Operators
+│   │   ├── Logical AND
+│   │   ├── Logical OR
+│   │   └── Logical NOT
+│   │
+│   ├── 16. BITWISE OPERATORS
+│   │   ├── AND
+│   │   ├── OR
+│   │   ├── XOR
+│   │   ├── NOT
+│   │   ├── Left Shift
+│   │   └── Right Shift
+│   │
+│   ├── 17. ASSIGNMENT OPERATORS
+│   │   ├── =
+│   │   ├── +=
+│   │   ├── -=
+│   │   ├── *=
+│   │   ├── /=
+│   │   ├── %=
+│   │   └── Bitwise Assignments
+│   │
+│   └── 18. EXPRESSION OPERATORS
+│       ├── Conditional Operator
+│       ├── Comma Operator
+│       ├── sizeof
+│       ├── Address-of
+│       ├── Dereference
+│       ├── Member Access
+│       └── Array Subscript
+│
+├── 🟦 GROUP 05 — OPERATOR PRECEDENCE & EVALUATION
+│   ├── 19. PRECEDENCE
+│   │   ├── Postfix
+│   │   ├── Unary
+│   │   ├── Multiplicative
+│   │   ├── Additive
+│   │   ├── Shift
+│   │   ├── Relational
+│   │   └── Logical
+│   │
+│   ├── 20. ASSOCIATIVITY
+│   │   ├── Left-to-Right
+│   │   ├── Right-to-Left
+│   │   └── Parentheses
+│   │
+│   └── 21. EVALUATION RULES
+│       ├── Evaluation Order
+│       ├── Sequencing
+│       ├── Side Effects
+│       ├── Sequence Points / Modern Sequencing
+│       └── Unsequenced Operations
+│
+├── 🟦 GROUP 06 — CONTROL FLOW
+│   ├── 22. CONDITIONAL STATEMENTS
+│   │   ├── if
+│   │   ├── if-else
+│   │   ├── else-if
+│   │   ├── Nested Conditions
+│   │   └── Conditional Operator
+│   │
+│   ├── 23. SWITCH
+│   │   ├── switch
+│   │   ├── case
+│   │   ├── default
+│   │   ├── break
+│   │   └── Fall-Through
+│   │
+│   ├── 24. LOOPS
+│   │   ├── for
+│   │   ├── while
+│   │   ├── do-while
+│   │   ├── Nested Loops
+│   │   └── Infinite Loops
+│   │
+│   └── 25. JUMP STATEMENTS
+│       ├── break
+│       ├── continue
+│       ├── return
+│       └── goto
+│
+├── 🟦 GROUP 07 — FUNCTIONS
+│   ├── 26. FUNCTION FUNDAMENTALS
+│   │   ├── Declaration
+│   │   ├── Prototype
+│   │   ├── Definition
+│   │   ├── Function Call
+│   │   └── Return Value
+│   │
+│   ├── 27. FUNCTION PARAMETERS
+│   │   ├── Pass by Value
+│   │   ├── Pointer Parameters
+│   │   ├── Array Parameters
+│   │   ├── Structure Parameters
+│   │   └── Variadic Parameters
+│   │
+│   ├── 28. RECURSION
+│   │   ├── Direct Recursion
+│   │   ├── Indirect Recursion
+│   │   ├── Mutual Recursion
+│   │   └── Tail Recursion
+│   │
+│   └── 29. FUNCTION POINTERS & CALLBACKS
+│       ├── Function Pointer
+│       ├── Function Pointer Arrays
+│       ├── Callbacks
+│       ├── Dispatch Tables
+│       └── Callback Context
+│
+├── 🟦 GROUP 08 — ARRAYS & STRINGS
+│   ├── 30. ARRAYS
+│   │   ├── One-Dimensional Arrays
+│   │   ├── Array Initialization
+│   │   ├── Array Traversal
+│   │   ├── Array Bounds
+│   │   └── Array Size
+│   │
+│   ├── 31. MULTIDIMENSIONAL ARRAYS
+│   │   ├── Two-Dimensional Arrays
+│   │   ├── Three-Dimensional Arrays
+│   │   ├── N-Dimensional Arrays
+│   │   ├── Row-Major Layout
+│   │   └── VLA Parameters
+│   │
+│   ├── 32. C STRINGS
+│   │   ├── Character Arrays
+│   │   ├── Null Terminator
+│   │   ├── String Literals
+│   │   ├── Mutable Strings
+│   │   └── String Storage
+│   │
+│   └── 33. STRING OPERATIONS
+│       ├── Length
+│       ├── Copy
+│       ├── Concatenation
+│       ├── Comparison
+│       ├── Searching
+│       └── Tokenization
+│
+├── 🟦 GROUP 09 — POINTERS
+│   ├── 34. POINTER FUNDAMENTALS
+│   │   ├── Address
+│   │   ├── Pointer Variable
+│   │   ├── Address-of Operator
+│   │   ├── Dereference Operator
+│   │   └── Pointer Initialization
+│   │
+│   ├── 35. POINTER TYPES
+│   │   ├── Object Pointers
+│   │   ├── Structure Pointers
+│   │   ├── Union Pointers
+│   │   ├── Pointer-to-Pointer
+│   │   └── void*
+│   │
+│   ├── 36. POINTER ARITHMETIC
+│   │   ├── Pointer Addition
+│   │   ├── Pointer Subtraction
+│   │   ├── Pointer Increment
+│   │   ├── Pointer Comparison
+│   │   └── One-Past-End Pointer
+│   │
+│   ├── 37. POINTER & ARRAY RELATIONSHIP
+│   │   ├── Array-to-Pointer Conversion
+│   │   ├── Pointer Indexing
+│   │   ├── Pointer to Array
+│   │   ├── Array of Pointers
+│   │   └── sizeof Array vs Pointer
+│   │
+│   └── 38. ADVANCED POINTERS
+│       ├── const Pointer
+│       ├── Pointer to const
+│       ├── const Pointer to const
+│       ├── restrict Pointer
+│       ├── Generic Pointers
+│       └── Pointer Lifetime
+│
+├── 🟦 GROUP 10 — STRUCTURES, UNIONS & ENUMS
+│   ├── 39. STRUCTURES
+│   │   ├── Structure Declaration
+│   │   ├── Structure Definition
+│   │   ├── Structure Initialization
+│   │   ├── Member Access
+│   │   └── Structure Assignment
+│   │
+│   ├── 40. ADVANCED STRUCTURES
+│   │   ├── Nested Structures
+│   │   ├── Self-Referential Structures
+│   │   ├── Structure Pointers
+│   │   ├── Flexible Array Members
+│   │   └── Opaque Structures
+│   │
+│   ├── 41. UNIONS
+│   │   ├── Union Declaration
+│   │   ├── Shared Storage
+│   │   ├── Union Size
+│   │   ├── Union Access
+│   │   └── Tagged Unions
+│   │
+│   └── 42. ENUMERATIONS & TYPEDEFS
+│       ├── enum
+│       ├── Enumeration Constants
+│       ├── Explicit Enumeration Values
+│       ├── typedef
+│       └── Type Aliases
+│
+├── 🟦 GROUP 11 — BIT-LEVEL PROGRAMMING
+│   ├── 43. BIT MANIPULATION
+│   │   ├── Set Bit
+│   │   ├── Clear Bit
+│   │   ├── Toggle Bit
+│   │   ├── Test Bit
+│   │   └── Bit Masks
+│   │
+│   ├── 44. BIT FLAGS
+│   │   ├── Flags
+│   │   ├── Permission Bits
+│   │   ├── Configuration Bits
+│   │   └── Feature Flags
+│   │
+│   └── 45. BIT FIELDS
+│       ├── Bit-Field Declaration
+│       ├── Bit Width
+│       ├── Hardware Registers
+│       └── Portability Limitations
+│
+├── 🟦 GROUP 12 — MEMORY MANAGEMENT
+│   ├── 46. MEMORY STORAGE
+│   │   ├── Automatic Storage
+│   │   ├── Static Storage
+│   │   ├── Allocated Storage
+│   │   └── Thread Storage
+│   │
+│   ├── 47. DYNAMIC MEMORY
+│   │   ├── malloc
+│   │   ├── calloc
+│   │   ├── realloc
+│   │   └── free
+│   │
+│   ├── 48. MEMORY OWNERSHIP
+│   │   ├── Ownership
+│   │   ├── Borrowing
+│   │   ├── Transfer
+│   │   ├── Lifetime
+│   │   └── Resource Ownership
+│   │
+│   └── 49. MEMORY ERRORS
+│       ├── Memory Leak
+│       ├── Dangling Pointer
+│       ├── Use-After-Free
+│       ├── Double Free
+│       ├── Invalid Free
+│       └── Buffer Overflow
+│
+├── 🟦 GROUP 13 — C MEMORY MODEL
+│   ├── 50. OBJECT MODEL
+│   │   ├── Objects
+│   │   ├── Values
+│   │   ├── Object Representation
+│   │   └── Character Representation
+│   │
+│   ├── 51. OBJECT LIFETIME
+│   │   ├── Object Creation
+│   │   ├── Object Lifetime
+│   │   ├── Object Destruction
+│   │   └── Lifetime Violations
+│   │
+│   ├── 52. EFFECTIVE TYPE
+│   │   ├── Declared Objects
+│   │   ├── Allocated Objects
+│   │   ├── Compatible Types
+│   │   └── Effective-Type Access
+│   │
+│   ├── 53. ALIASING
+│   │   ├── Aliasing
+│   │   ├── Strict Aliasing
+│   │   ├── Character-Type Access
+│   │   └── restrict
+│   │
+│   └── 54. MEMORY REPRESENTATION
+│       ├── Endianness
+│       ├── Alignment
+│       ├── Padding
+│       ├── Object Bytes
+│       └── Structure Layout
+│
+├── 🟦 GROUP 14 — SCOPE, LINKAGE & STORAGE
+│   ├── 55. SCOPE
+│   │   ├── Block Scope
+│   │   ├── Function Scope
+│   │   ├── Function Prototype Scope
+│   │   └── File Scope
+│   │
+│   ├── 56. STORAGE DURATION
+│   │   ├── Automatic
+│   │   ├── Static
+│   │   ├── Allocated
+│   │   └── Thread
+│   │
+│   ├── 57. LINKAGE
+│   │   ├── No Linkage
+│   │   ├── Internal Linkage
+│   │   └── External Linkage
+│   │
+│   └── 58. STORAGE CLASS SPECIFIERS
+│       ├── auto
+│       ├── register
+│       ├── static
+│       ├── extern
+│       └── _Thread_local
+│
+├── 🟨 GROUP 15 — PREPROCESSOR
+│   ├── 59. PREPROCESSOR DIRECTIVES
+│   │   ├── #include
+│   │   ├── #define
+│   │   ├── #undef
+│   │   ├── #if / #elif / #else
+│   │   └── #ifdef / #ifndef
+│   │
+│   ├── 60. MACROS
+│   │   ├── Object-Like Macros
+│   │   ├── Function-Like Macros
+│   │   ├── Variadic Macros
+│   │   ├── Stringification
+│   │   └── Token Pasting
+│   │
+│   ├── 61. CONDITIONAL COMPILATION
+│   │   ├── Platform Detection
+│   │   ├── Feature Detection
+│   │   ├── Debug Builds
+│   │   └── Release Builds
+│   │
+│   └── 62. OTHER PREPROCESSOR FEATURES
+│       ├── #error
+│       ├── #warning
+│       ├── #line
+│       ├── #pragma
+│       └── Predefined Macros
+│
+├── 🟨 GROUP 16 — HEADER & MODULE ORGANIZATION
+│   ├── 63. HEADER FILES
+│   │   ├── Public Headers
+│   │   ├── Private Headers
+│   │   ├── System Headers
+│   │   └── Local Headers
+│   │
+│   ├── 64. HEADER PROTECTION
+│   │   ├── Include Guards
+│   │   ├── #pragma once
+│   │   └── Multiple Inclusion
+│   │
+│   ├── 65. MULTI-FILE PROGRAMS
+│   │   ├── Source Files
+│   │   ├── Header Files
+│   │   ├── Separate Compilation
+│   │   └── Symbol Management
+│   │
+│   └── 66. C MODULE DESIGN
+│       ├── Interface
+│       ├── Implementation
+│       ├── Encapsulation
+│       └── Dependency Management
+│
+├── 🟨 GROUP 17 — STANDARD INPUT & OUTPUT
+│   ├── 67. STANDARD STREAMS
+│   │   ├── stdin
+│   │   ├── stdout
+│   │   ├── stderr
+│   │   └── EOF
+│   │
+│   ├── 68. OUTPUT FUNCTIONS
+│   │   ├── printf
+│   │   ├── fprintf
+│   │   ├── sprintf
+│   │   ├── snprintf
+│   │   ├── puts
+│   │   └── putchar
+│   │
+│   ├── 69. INPUT FUNCTIONS
+│   │   ├── scanf
+│   │   ├── fscanf
+│   │   ├── sscanf
+│   │   ├── fgets
+│   │   ├── getchar
+│   │   └── fgetc
+│   │
+│   └── 70. FORMAT SPECIFIERS
+│       ├── Integer Formats
+│       ├── Floating Formats
+│       ├── Character Formats
+│       ├── String Formats
+│       ├── Pointer Formats
+│       └── Width / Precision / Flags
+│
+├── 🟨 GROUP 18 — FILE & STREAM PROGRAMMING
+│   ├── 71. FILE STREAMS
+│   │   ├── FILE
+│   │   ├── fopen
+│   │   ├── fclose
+│   │   ├── fflush
+│   │   └── File Modes
+│   │
+│   ├── 72. TEXT FILES
+│   │   ├── Character I/O
+│   │   ├── Line I/O
+│   │   ├── Formatted I/O
+│   │   └── EOF Handling
+│   │
+│   ├── 73. BINARY FILES
+│   │   ├── fread
+│   │   ├── fwrite
+│   │   ├── Binary Representation
+│   │   └── Serialization Concerns
+│   │
+│   ├── 74. FILE POSITIONING
+│   │   ├── fseek
+│   │   ├── ftell
+│   │   ├── rewind
+│   │   └── SEEK_SET / CUR / END
+│   │
+│   └── 75. STREAM STATE
+│       ├── feof
+│       ├── ferror
+│       ├── clearerr
+│       └── Error Handling
+│
+├── 🟩 GROUP 19 — STANDARD C LIBRARY
+│   ├── 76. CORE LIBRARIES
+│   │   ├── stdio.h
+│   │   ├── stdlib.h
+│   │   ├── string.h
+│   │   ├── stddef.h
+│   │   └── stdint.h
+│   │
+│   ├── 77. CHARACTER & STRING LIBRARIES
+│   │   ├── ctype.h
+│   │   ├── string.h
+│   │   ├── wchar.h
+│   │   └── uchar.h
+│   │
+│   ├── 78. NUMERIC LIBRARIES
+│   │   ├── math.h
+│   │   ├── complex.h
+│   │   ├── fenv.h
+│   │   ├── float.h
+│   │   └── limits.h
+│   │
+│   ├── 79. PROGRAMMING SUPPORT LIBRARIES
+│   │   ├── stdarg.h
+│   │   ├── assert.h
+│   │   ├── errno.h
+│   │   ├── signal.h
+│   │   └── setjmp.h
+│   │
+│   └── 80. MODERN C LIBRARIES
+│       ├── stdatomic.h
+│       ├── threads.h
+│       ├── stdalign.h
+│       ├── stdbool.h
+│       ├── stdint.h
+│       └── inttypes.h
+│
+├── 🟩 GROUP 20 — STRING, CHARACTER & TEXT PROCESSING
+│   ├── 81. STRING OPERATIONS
+│   │   ├── strlen
+│   │   ├── strcpy / strncpy
+│   │   ├── strcat / strncat
+│   │   ├── strcmp / strncmp
+│   │   └── strchr / strstr
+│   │
+│   ├── 82. MEMORY STRING OPERATIONS
+│   │   ├── memcpy
+│   │   ├── memmove
+│   │   ├── memset
+│   │   ├── memcmp
+│   │   └── memchr
+│   │
+│   ├── 83. CHARACTER CLASSIFICATION
+│   │   ├── isalpha
+│   │   ├── isdigit
+│   │   ├── isalnum
+│   │   ├── isspace
+│   │   └── Character Conversion
+│   │
+│   └── 84. TEXT ENCODING
+│       ├── Multibyte Characters
+│       ├── Wide Characters
+│       ├── UTF-8
+│       ├── UTF-16
+│       └── UTF-32
+│
+├── 🟩 GROUP 21 — NUMERIC, TIME & LOCALIZATION APIs
+│   ├── 85. MATHEMATICS
+│   │   ├── Arithmetic Functions
+│   │   ├── Trigonometric Functions
+│   │   ├── Exponential Functions
+│   │   ├── Logarithmic Functions
+│   │   └── Rounding Functions
+│   │
+│   ├── 86. FLOATING-POINT
+│   │   ├── NaN
+│   │   ├── Infinity
+│   │   ├── Signed Zero
+│   │   ├── Precision
+│   │   └── Rounding
+│   │
+│   ├── 87. TIME & DATE
+│   │   ├── time_t
+│   │   ├── clock_t
+│   │   ├── struct tm
+│   │   ├── time
+│   │   └── strftime
+│   │
+│   └── 88. LOCALIZATION
+│       ├── setlocale
+│       ├── LC_ALL
+│       ├── LC_NUMERIC
+│       ├── LC_TIME
+│       └── Locale-Aware Functions
+│
+├── 🟩 GROUP 22 — ERROR HANDLING & CONTROL
+│   ├── 89. ERROR HANDLING
+│   │   ├── Return Codes
+│   │   ├── Error Values
+│   │   ├── errno
+│   │   ├── perror
+│   │   └── strerror
+│   │
+│   ├── 90. ASSERTIONS
+│   │   ├── assert
+│   │   ├── NDEBUG
+│   │   └── Runtime Assertions
+│   │
+│   ├── 91. NON-LOCAL CONTROL FLOW
+│   │   ├── setjmp
+│   │   ├── longjmp
+│   │   └── jmp_buf
+│   │
+│   └── 92. RESOURCE ERROR HANDLING
+│       ├── Cleanup
+│       ├── Partial Failure
+│       ├── Error Propagation
+│       └── Resource Rollback
+│
+├── 🟪 GROUP 23 — C CONCURRENCY
+│   ├── 93. C11 THREADS
+│   │   ├── thrd_create
+│   │   ├── thrd_join
+│   │   ├── thrd_exit
+│   │   └── Thread Lifecycle
+│   │
+│   ├── 94. C11 SYNCHRONIZATION
+│   │   ├── Mutex
+│   │   ├── Condition Variables
+│   │   ├── Locking
+│   │   └── Synchronization
+│   │
+│   ├── 95. ATOMICS
+│   │   ├── Atomic Load
+│   │   ├── Atomic Store
+│   │   ├── Exchange
+│   │   ├── Compare-Exchange
+│   │   └── Fetch Operations
+│   │
+│   └── 96. THREAD LOCAL STORAGE
+│       ├── _Thread_local
+│       ├── Thread-Specific State
+│       └── Per-Thread Storage
+│
+├── 🟪 GROUP 24 — C MEMORY MODEL & ATOMICS
+│   ├── 97. MEMORY ORDERING
+│   │   ├── Relaxed
+│   │   ├── Acquire
+│   │   ├── Release
+│   │   ├── Acquire-Release
+│   │   └── Sequential Consistency
+│   │
+│   ├── 98. MEMORY SYNCHRONIZATION
+│   │   ├── Happens-Before
+│   │   ├── Synchronizes-With
+│   │   ├── Visibility
+│   │   └── Ordering
+│   │
+│   ├── 99. CONCURRENCY ERRORS
+│   │   ├── Race Conditions
+│   │   ├── Data Races
+│   │   ├── Deadlocks
+│   │   ├── Livelocks
+│   │   └── Starvation
+│   │
+│   └── 100. LOCK-FREE PROGRAMMING
+│       ├── CAS
+│       ├── ABA Problem
+│       ├── Lock-Free Algorithms
+│       ├── Hazard Pointers
+│       └── Memory Reclamation
+│
+├── 🟪 GROUP 25 — DATA STRUCTURES
+│   ├── 101. LINEAR DATA STRUCTURES
+│   │   ├── Dynamic Arrays
+│   │   ├── Linked Lists
+│   │   ├── Doubly Linked Lists
+│   │   ├── Circular Lists
+│   │   └── Stacks
+│   │
+│   ├── 102. QUEUES
+│   │   ├── Queue
+│   │   ├── Circular Queue
+│   │   ├── Deque
+│   │   └── Priority Queue
+│   │
+│   ├── 103. HASH STRUCTURES
+│   │   ├── Hash Tables
+│   │   ├── Hash Functions
+│   │   ├── Collision Handling
+│   │   └── Rehashing
+│   │
+│   └── 104. TREE & GRAPH STRUCTURES
+│       ├── Binary Trees
+│       ├── BST
+│       ├── AVL
+│       ├── Red-Black Trees
+│       ├── Heaps
+│       ├── Tries
+│       └── Graphs
+│
+├── 🟪 GROUP 26 — ALGORITHMS
+│   ├── 105. COMPLEXITY
+│   │   ├── Big-O
+│   │   ├── Big-Omega
+│   │   ├── Big-Theta
+│   │   ├── Time Complexity
+│   │   └── Space Complexity
+│   │
+│   ├── 106. SEARCHING
+│   │   ├── Linear Search
+│   │   ├── Binary Search
+│   │   └── Hash Search
+│   │
+│   ├── 107. SORTING
+│   │   ├── Bubble Sort
+│   │   ├── Selection Sort
+│   │   ├── Insertion Sort
+│   │   ├── Merge Sort
+│   │   ├── Quick Sort
+│   │   ├── Heap Sort
+│   │   ├── Counting Sort
+│   │   └── Radix Sort
+│   │
+│   └── 108. ADVANCED ALGORITHMS
+│       ├── Divide and Conquer
+│       ├── Greedy Algorithms
+│       ├── Dynamic Programming
+│       ├── Backtracking
+│       └── Randomized Algorithms
+│
+├── 🟪 GROUP 27 — GRAPH & ADVANCED ALGORITHMS
+│   ├── 109. GRAPH TRAVERSAL
+│   │   ├── BFS
+│   │   ├── DFS
+│   │   ├── Connected Components
+│   │   └── Cycle Detection
+│   │
+│   ├── 110. SHORTEST PATH
+│   │   ├── Dijkstra
+│   │   ├── Bellman-Ford
+│   │   └── Floyd-Warshall
+│   │
+│   ├── 111. MINIMUM SPANNING TREE
+│   │   ├── Prim
+│   │   ├── Kruskal
+│   │   └── Disjoint Set
+│   │
+│   └── 112. GRAPH PROCESSING
+│       ├── Topological Sort
+│       ├── Strongly Connected Components
+│       ├── Bipartite Graphs
+│       └── Network Flow
+│
+├── 🟪 GROUP 28 — PARSING & LANGUAGE PROCESSING
+│   ├── 113. LEXICAL ANALYSIS
+│   │   ├── Lexer
+│   │   ├── Tokens
+│   │   ├── Keywords
+│   │   ├── Operators
+│   │   └── Literals
+│   │
+│   ├── 114. PARSING
+│   │   ├── Grammar
+│   │   ├── Parse Tree
+│   │   ├── AST
+│   │   ├── Recursive Descent
+│   │   └── Parser Combinators
+│   │
+│   ├── 115. STATE MACHINES
+│   │   ├── FSM
+│   │   ├── States
+│   │   ├── Events
+│   │   ├── Transitions
+│   │   └── Actions
+│   │
+│   └── 116. LANGUAGE TOOLS
+│       ├── Regex Engines
+│       ├── Lexers
+│       ├── Parsers
+│       ├── Interpreters
+│       └── Compiler Front Ends
+│
+├── 🟨 GROUP 29 — COMPILATION PIPELINE
+│   ├── 117. PREPROCESSING
+│   │   ├── Header Expansion
+│   │   ├── Macro Expansion
+│   │   ├── Conditional Compilation
+│   │   └── Preprocessed Output
+│   │
+│   ├── 118. COMPILER FRONT END
+│   │   ├── Lexer
+│   │   ├── Parser
+│   │   ├── AST
+│   │   ├── Semantic Analysis
+│   │   └── Type Checking
+│   │
+│   ├── 119. COMPILER OPTIMIZATION
+│   │   ├── Intermediate Representation
+│   │   ├── Constant Folding
+│   │   ├── Dead Code Elimination
+│   │   ├── Inlining
+│   │   └── Vectorization
+│   │
+│   └── 120. CODE GENERATION
+│       ├── Instruction Selection
+│       ├── Register Allocation
+│       ├── Machine Code
+│       └── Assembly Generation
+│
+├── 🟨 GROUP 30 — ASSEMBLY, OBJECT FILES & LINKING
+│   ├── 121. ASSEMBLY
+│   │   ├── Assembly Language
+│   │   ├── Assembler
+│   │   ├── Registers
+│   │   ├── Instructions
+│   │   └── Machine Code
+│   │
+│   ├── 122. OBJECT FILES
+│   │   ├── ELF
+│   │   ├── PE/COFF
+│   │   ├── Mach-O
+│   │   ├── Sections
+│   │   └── Symbols
+│   │
+│   ├── 123. LINKER
+│   │   ├── Symbol Resolution
+│   │   ├── Relocation
+│   │   ├── Static Linking
+│   │   └── Dynamic Linking
+│   │
+│   └── 124. LOADER
+│       ├── Program Loading
+│       ├── Dynamic Loader
+│       ├── Shared Libraries
+│       └── Runtime Relocation
+│
+├── 🟨 GROUP 31 — ABI & BINARY INTERFACE
+│   ├── 125. ABI FUNDAMENTALS
+│   │   ├── Calling Convention
+│   │   ├── Data Layout
+│   │   ├── Type Sizes
+│   │   └── Alignment
+│   │
+│   ├── 126. FUNCTION ABI
+│   │   ├── Register Arguments
+│   │   ├── Stack Arguments
+│   │   ├── Return Values
+│   │   └── Calling Convention
+│   │
+│   ├── 127. SYMBOL ABI
+│   │   ├── Symbol Names
+│   │   ├── Visibility
+│   │   ├── Name Mangling
+│   │   └── Symbol Versioning
+│   │
+│   └── 128. BINARY COMPATIBILITY
+│       ├── API Compatibility
+│       ├── ABI Compatibility
+│       ├── Shared Library Compatibility
+│       └── Versioning
+│
+├── 🟨 GROUP 32 — STATIC & SHARED LIBRARIES
+│   ├── 129. STATIC LIBRARIES
+│   │   ├── Object Files
+│   │   ├── Archive Libraries
+│   │   ├── .a
+│   │   ├── .lib
+│   │   └── Static Linking
+│   │
+│   ├── 130. SHARED LIBRARIES
+│   │   ├── .so
+│   │   ├── .dll
+│   │   ├── .dylib
+│   │   └── Dynamic Loading
+│   │
+│   ├── 131. LIBRARY LOADING
+│   │   ├── dlopen
+│   │   ├── dlsym
+│   │   ├── dlclose
+│   │   └── LoadLibrary / GetProcAddress
+│   │
+│   └── 132. LIBRARY DESIGN
+│       ├── Public API
+│       ├── Private Implementation
+│       ├── Symbol Visibility
+│       └── ABI Stability
+│
+├── 🟨 GROUP 33 — BUILD SYSTEMS & TOOLCHAINS
+│   ├── 133. COMPILERS
+│   │   ├── GCC
+│   │   ├── Clang
+│   │   ├── MSVC
+│   │   ├── Intel Compiler
+│   │   └── Embedded Compilers
+│   │
+│   ├── 134. MAKE
+│   │   ├── Makefile
+│   │   ├── Targets
+│   │   ├── Dependencies
+│   │   ├── Rules
+│   │   └── Variables
+│   │
+│   ├── 135. CMAKE
+│   │   ├── Targets
+│   │   ├── Libraries
+│   │   ├── Executables
+│   │   ├── Tests
+│   │   └── Installation
+│   │
+│   └── 136. BUILD TOOLS
+│       ├── Ninja
+│       ├── Meson
+│       ├── Autotools
+│       └── pkg-config
+│
+├── 🟨 GROUP 34 — PACKAGE & DEPENDENCY MANAGEMENT
+│   ├── 137. PACKAGE MANAGERS
+│   │   ├── vcpkg
+│   │   ├── Conan
+│   │   ├── System Package Managers
+│   │   └── Package Repositories
+│   │
+│   ├── 138. DEPENDENCIES
+│   │   ├── Version Management
+│   │   ├── Transitive Dependencies
+│   │   ├── Static Dependencies
+│   │   └── Shared Dependencies
+│   │
+│   └── 139. TOOLCHAIN MANAGEMENT
+│       ├── Cross Toolchains
+│       ├── Sysroot
+│       ├── Compiler Flags
+│       └── Target Configuration
+│
+├── 🟧 GROUP 35 — DEBUGGING & DIAGNOSTICS
+│   ├── 140. DEBUGGERS
+│   │   ├── GDB
+│   │   ├── LLDB
+│   │   ├── Visual Studio Debugger
+│   │   └── Embedded Debuggers
+│   │
+│   ├── 141. DEBUGGING TECHNIQUES
+│   │   ├── Breakpoints
+│   │   ├── Watchpoints
+│   │   ├── Call Stack
+│   │   ├── Registers
+│   │   └── Memory Inspection
+│   │
+│   ├── 142. CORE DUMPS
+│   │   ├── Crash Dumps
+│   │   ├── Core Files
+│   │   ├── Stack Traces
+│   │   └── Postmortem Debugging
+│   │
+│   └── 143. DIAGNOSTIC TOOLS
+│       ├── strace
+│       ├── ltrace
+│       ├── objdump
+│       ├── readelf
+│       └── nm
+│
+├── 🟧 GROUP 36 — SANITIZERS & STATIC ANALYSIS
+│   ├── 144. ADDRESS SANITIZER
+│   │   ├── Buffer Overflow
+│   │   ├── Use-After-Free
+│   │   ├── Double Free
+│   │   └── Memory Errors
+│   │
+│   ├── 145. UNDEFINED BEHAVIOR SANITIZER
+│   │   ├── Integer Errors
+│   │   ├── Invalid Shifts
+│   │   ├── Null Dereferences
+│   │   └── Undefined Behavior
+│   │
+│   ├── 146. THREAD & LEAK SANITIZERS
+│   │   ├── ThreadSanitizer
+│   │   ├── LeakSanitizer
+│   │   └── Data Race Detection
+│   │
+│   └── 147. STATIC ANALYSIS
+│       ├── clang-tidy
+│       ├── Clang Static Analyzer
+│       ├── Cppcheck
+│       └── Compiler Warnings
+│
+├── 🟧 GROUP 37 — TESTING
+│   ├── 148. TESTING FUNDAMENTALS
+│   │   ├── Unit Testing
+│   │   ├── Integration Testing
+│   │   ├── System Testing
+│   │   └── Regression Testing
+│   │
+│   ├── 149. C TEST FRAMEWORKS
+│   │   ├── Unity
+│   │   ├── CMocka
+│   │   ├── Criterion
+│   │   └── Check
+│   │
+│   ├── 150. FUZZ TESTING
+│   │   ├── libFuzzer
+│   │   ├── AFL
+│   │   ├── AFL++
+│   │   └── Corpus Management
+│   │
+│   └── 151. COVERAGE & QUALITY
+│       ├── Code Coverage
+│       ├── gcov
+│       ├── lcov
+│       └── Test Reporting
+│
+├── 🟧 GROUP 38 — PERFORMANCE ENGINEERING
+│   ├── 152. PERFORMANCE FUNDAMENTALS
+│   │   ├── Latency
+│   │   ├── Throughput
+│   │   ├── CPU Usage
+│   │   └── Memory Usage
+│   │
+│   ├── 153. PROFILING
+│   │   ├── gprof
+│   │   ├── perf
+│   │   ├── Valgrind
+│   │   └── Platform Profilers
+│   │
+│   ├── 154. CPU PERFORMANCE
+│   │   ├── CPU Cache
+│   │   ├── Branch Prediction
+│   │   ├── SIMD
+│   │   └── Vectorization
+│   │
+│   └── 155. MEMORY PERFORMANCE
+│       ├── Cache Locality
+│       ├── Allocation Cost
+│       ├── Fragmentation
+│       └── Data-Oriented Design
+│
+├── 🟧 GROUP 39 — OPTIMIZATION
+│   ├── 156. COMPILER OPTIMIZATION
+│   │   ├── -O0
+│   │   ├── -O1
+│   │   ├── -O2
+│   │   ├── -O3
+│   │   ├── -Os
+│   │   └── -Ofast
+│   │
+│   ├── 157. CODE OPTIMIZATION
+│   │   ├── Inlining
+│   │   ├── Loop Optimization
+│   │   ├── Branch Optimization
+│   │   └── Dead-Code Elimination
+│   │
+│   ├── 158. DATA OPTIMIZATION
+│   │   ├── AoS
+│   │   ├── SoA
+│   │   ├── Cache-Friendly Structures
+│   │   └── Memory Pools
+│   │
+│   └── 159. ALGORITHM OPTIMIZATION
+│       ├── Complexity Reduction
+│       ├── Better Data Structures
+│       ├── Parallel Algorithms
+│       └── I/O Optimization
+│
+├── 🟥 GROUP 40 — POSIX & UNIX PROGRAMMING
+│   ├── 160. POSIX FOUNDATION
+│   │   ├── POSIX APIs
+│   │   ├── File APIs
+│   │   ├── Process APIs
+│   │   ├── Thread APIs
+│   │   └── IPC APIs
+│   │
+│   ├── 161. UNIX FILE SYSTEM
+│   │   ├── File Descriptors
+│   │   ├── open
+│   │   ├── read
+│   │   ├── write
+│   │   ├── close
+│   │   └── stat
+│   │
+│   ├── 162. UNIX PROCESSES
+│   │   ├── fork
+│   │   ├── exec
+│   │   ├── wait
+│   │   ├── exit
+│   │   └── Process Groups
+│   │
+│   └── 163. UNIX ENVIRONMENT
+│       ├── Environment Variables
+│       ├── Signals
+│       ├── Pipes
+│       ├── Sessions
+│       └── Permissions
+│
+├── 🟥 GROUP 41 — LINUX SYSTEM PROGRAMMING
+│   ├── 164. LINUX SYSTEM CALLS
+│   │   ├── File System Calls
+│   │   ├── Process Calls
+│   │   ├── Memory Calls
+│   │   └── IPC Calls
+│   │
+│   ├── 165. LINUX MEMORY
+│   │   ├── mmap
+│   │   ├── munmap
+│   │   ├── Virtual Memory
+│   │   └── Memory Protection
+│   │
+│   ├── 166. LINUX PROCESS CONTROL
+│   │   ├── fork
+│   │   ├── execve
+│   │   ├── waitpid
+│   │   ├── Process Groups
+│   │   └── Sessions
+│   │
+│   └── 167. LINUX SYSTEM TOOLS
+│       ├── ps
+│       ├── top
+│       ├── lsof
+│       ├── strace
+│       └── procfs
+│
+├── 🟥 GROUP 42 — PROCESSES & IPC
+│   ├── 168. PROCESS MANAGEMENT
+│   │   ├── Parent Process
+│   │   ├── Child Process
+│   │   ├── PID
+│   │   ├── Process State
+│   │   └── Process Termination
+│   │
+│   ├── 169. PIPES
+│   │   ├── Anonymous Pipes
+│   │   ├── Named Pipes
+│   │   ├── pipe
+│   │   └── FIFO
+│   │
+│   ├── 170. IPC
+│   │   ├── Message Queues
+│   │   ├── Shared Memory
+│   │   ├── Semaphores
+│   │   └── Unix Domain Sockets
+│   │
+│   └── 171. MEMORY IPC
+│       ├── Shared mmap
+│       ├── POSIX Shared Memory
+│       ├── Synchronization
+│       └── Memory Barriers
+│
+├── 🟥 GROUP 43 — POSIX THREADS
+│   ├── 172. PTHREADS
+│   │   ├── pthread_create
+│   │   ├── pthread_join
+│   │   ├── pthread_exit
+│   │   └── Thread Attributes
+│   │
+│   ├── 173. PTHREAD SYNCHRONIZATION
+│   │   ├── pthread_mutex
+│   │   ├── pthread_cond
+│   │   ├── pthread_rwlock
+│   │   └── pthread_barrier
+│   │
+│   └── 174. THREAD DESIGN
+│       ├── Thread Pools
+│       ├── Producer-Consumer
+│       ├── Thread Affinity
+│       └── Thread Cancellation
+│
+├── 🟥 GROUP 44 — SIGNALS & EVENT HANDLING
+│   ├── 175. SIGNALS
+│   │   ├── SIGINT
+│   │   ├── SIGTERM
+│   │   ├── SIGSEGV
+│   │   ├── SIGABRT
+│   │   └── SIGFPE
+│   │
+│   ├── 176. SIGNAL APIs
+│   │   ├── signal
+│   │   ├── sigaction
+│   │   ├── raise
+│   │   └── kill
+│   │
+│   └── 177. SIGNAL MANAGEMENT
+│       ├── Signal Masks
+│       ├── Pending Signals
+│       ├── Signal Safety
+│       └── Async-Signal-Safe Functions
+│
+├── 🟧 GROUP 45 — NETWORK PROGRAMMING
+│   ├── 178. NETWORK FUNDAMENTALS
+│   │   ├── IP
+│   │   ├── MAC
+│   │   ├── Ports
+│   │   ├── TCP
+│   │   └── UDP
+│   │
+│   ├── 179. SOCKET PROGRAMMING
+│   │   ├── socket
+│   │   ├── bind
+│   │   ├── listen
+│   │   ├── accept
+│   │   └── connect
+│   │
+│   ├── 180. TCP PROGRAMMING
+│   │   ├── TCP Server
+│   │   ├── TCP Client
+│   │   ├── send / recv
+│   │   └── Connection Handling
+│   │
+│   └── 181. UDP PROGRAMMING
+│       ├── UDP Server
+│       ├── UDP Client
+│       ├── sendto / recvfrom
+│       └── Datagram Processing
+│
+├── 🟧 GROUP 46 — NETWORK PROTOCOLS
+│   ├── 182. DNS
+│   │   ├── Name Resolution
+│   │   ├── Resolver
+│   │   └── Address Resolution
+│   │
+│   ├── 183. HTTP
+│   │   ├── HTTP Request
+│   │   ├── HTTP Response
+│   │   ├── Headers
+│   │   └── Status Codes
+│   │
+│   ├── 184. NETWORK SERVICES
+│   │   ├── Client-Server
+│   │   ├── Protocol Design
+│   │   ├── Serialization
+│   │   └── Framing
+│   │
+│   └── 185. NETWORK CONCURRENCY
+│       ├── Multi-Client Servers
+│       ├── Thread-per-Connection
+│       ├── Thread Pools
+│       ├── select / poll
+│       └── epoll / kqueue
+│
+├── 🟥 GROUP 47 — TLS & SECURE NETWORKING
+│   ├── 186. TLS CONCEPTS
+│   │   ├── Encryption
+│   │   ├── Authentication
+│   │   ├── Integrity
+│   │   └── TLS Handshake
+│   │
+│   ├── 187. CERTIFICATES
+│   │   ├── X.509
+│   │   ├── CA
+│   │   ├── Certificate Chain
+│   │   └── Public / Private Keys
+│   │
+│   └── 188. C TLS LIBRARIES
+│       ├── OpenSSL
+│       ├── mbedTLS
+│       ├── wolfSSL
+│       └── Secure Socket Integration
+│
+├── 🟫 GROUP 48 — EMBEDDED C FOUNDATION
+│   ├── 189. EMBEDDED FUNDAMENTALS
+│   │   ├── Firmware
+│   │   ├── Bare Metal
+│   │   ├── Microcontroller
+│   │   └── Embedded Constraints
+│   │
+│   ├── 190. EMBEDDED MEMORY
+│   │   ├── Flash
+│   │   ├── SRAM
+│   │   ├── ROM
+│   │   ├── Stack
+│   │   └── Memory-Mapped Regions
+│   │
+│   └── 191. EMBEDDED C PRACTICES
+│       ├── volatile
+│       ├── const
+│       ├── Bit Manipulation
+│       ├── Fixed-Width Types
+│       └── Deterministic Programming
+│
+├── 🟫 GROUP 49 — MICROCONTROLLERS & HARDWARE
+│   ├── 192. MICROCONTROLLER ARCHITECTURE
+│   │   ├── CPU
+│   │   ├── Flash
+│   │   ├── SRAM
+│   │   ├── Registers
+│   │   └── Peripherals
+│   │
+│   ├── 193. HARDWARE REGISTERS
+│   │   ├── Control Registers
+│   │   ├── Status Registers
+│   │   ├── Data Registers
+│   │   └── Register Masks
+│   │
+│   └── 194. MEMORY-MAPPED I/O
+│       ├── Hardware Addresses
+│       ├── Volatile Access
+│       ├── Register Mapping
+│       └── Peripheral Access
+│
+├── 🟫 GROUP 50 — EMBEDDED PERIPHERALS
+│   ├── 195. GPIO
+│   │   ├── Input
+│   │   ├── Output
+│   │   ├── Pull-Up
+│   │   └── Pull-Down
+│   │
+│   ├── 196. UART
+│   │   ├── TX / RX
+│   │   ├── Baud Rate
+│   │   ├── Parity
+│   │   └── Interrupt UART
+│   │
+│   ├── 197. SPI
+│   │   ├── MOSI
+│   │   ├── MISO
+│   │   ├── SCLK
+│   │   └── Chip Select
+│   │
+│   ├── 198. I2C
+│   │   ├── SDA
+│   │   ├── SCL
+│   │   ├── Addressing
+│   │   └── ACK / NACK
+│   │
+│   └── 199. CAN
+│       ├── CAN Frame
+│       ├── Identifier
+│       ├── Arbitration
+│       └── Automotive Communication
+│
+├── 🟫 GROUP 51 — EMBEDDED TIMING & CONTROL
+│   ├── 200. TIMERS
+│   │   ├── Counter
+│   │   ├── Prescaler
+│   │   ├── Timer Interrupts
+│   │   └── Time Measurement
+│   │
+│   ├── 201. ADC
+│   │   ├── Analog Input
+│   │   ├── Resolution
+│   │   ├── Sampling
+│   │   └── Sensor Reading
+│   │
+│   ├── 202. PWM
+│   │   ├── Duty Cycle
+│   │   ├── Frequency
+│   │   ├── Motor Control
+│   │   └── LED Control
+│   │
+│   ├── 203. DMA
+│   │   ├── Memory Transfer
+│   │   ├── Peripheral Transfer
+│   │   └── Zero/Low CPU Transfer
+│   │
+│   └── 204. WATCHDOG
+│       ├── Watchdog Timer
+│       ├── Timeout
+│       ├── Reset
+│       └── Fault Recovery
+│
+├── 🟫 GROUP 52 — INTERRUPTS & REAL-TIME C
+│   ├── 205. INTERRUPTS
+│   │   ├── Hardware Interrupts
+│   │   ├── Interrupt Vector
+│   │   ├── ISR
+│   │   └── Interrupt Priority
+│   │
+│   ├── 206. ISR DESIGN
+│   │   ├── Short ISR
+│   │   ├── Shared Data
+│   │   ├── Interrupt Safety
+│   │   └── Deferred Processing
+│   │
+│   └── 207. REAL-TIME PROGRAMMING
+│       ├── Hard Real-Time
+│       ├── Soft Real-Time
+│       ├── Latency
+│       ├── Jitter
+│       └── Determinism
+│
+├── 🟫 GROUP 53 — RTOS
+│   ├── 208. RTOS FUNDAMENTALS
+│   │   ├── Tasks
+│   │   ├── Scheduler
+│   │   ├── Priorities
+│   │   └── Context Switching
+│   │
+│   ├── 209. RTOS SYNCHRONIZATION
+│   │   ├── Mutex
+│   │   ├── Semaphore
+│   │   ├── Event Flags
+│   │   └── Queues
+│   │
+│   └── 210. RTOS PLATFORMS
+│       ├── FreeRTOS
+│       ├── Zephyr
+│       ├── ThreadX
+│       └── RTEMS
+│
+├── 🟫 GROUP 54 — CROSS COMPILATION & FIRMWARE
+│   ├── 211. CROSS COMPILATION
+│   │   ├── Host
+│   │   ├── Target
+│   │   ├── Cross Compiler
+│   │   └── Cross Linker
+│   │
+│   ├── 212. EMBEDDED TOOLCHAIN
+│   │   ├── GCC Cross Compiler
+│   │   ├── ARM Toolchain
+│   │   ├── RISC-V Toolchain
+│   │   └── Sysroot
+│   │
+│   ├── 213. LINKER SCRIPTS
+│   │   ├── Memory Regions
+│   │   ├── Sections
+│   │   ├── Flash Layout
+│   │   └── RAM Layout
+│   │
+│   └── 214. FIRMWARE
+│       ├── Startup Code
+│       ├── Bootloader
+│       ├── Firmware Image
+│       ├── Flashing
+│       └── Firmware Updates
+│
+├── 🟫 GROUP 55 — C & ASSEMBLY
+│   ├── 215. CPU ARCHITECTURE
+│   │   ├── Registers
+│   │   ├── Instructions
+│   │   ├── Stack
+│   │   └── Calling Convention
+│   │
+│   ├── 216. C TO ASSEMBLY
+│   │   ├── Function Calls
+│   │   ├── Loops
+│   │   ├── Branches
+│   │   └── Pointer Operations
+│   │
+│   └── 217. INLINE ASSEMBLY
+│       ├── GCC Assembly
+│       ├── Clang Assembly
+│       ├── Constraints
+│       └── Register Usage
+│
+├── 🟫 GROUP 56 — PORTABILITY
+│   ├── 218. PLATFORM PORTABILITY
+│   │   ├── Linux
+│   │   ├── Windows
+│   │   ├── macOS
+│   │   ├── BSD
+│   │   └── Embedded
+│   │
+│   ├── 219. ARCHITECTURE PORTABILITY
+│   │   ├── x86
+│   │   ├── x86-64
+│   │   ├── ARM
+│   │   ├── ARM64
+│   │   └── RISC-V
+│   │
+│   ├── 220. TYPE PORTABILITY
+│   │   ├── stdint.h
+│   │   ├── size_t
+│   │   ├── ptrdiff_t
+│   │   └── inttypes.h
+│   │
+│   └── 221. PORTABLE DESIGN
+│       ├── Endianness
+│       ├── Alignment
+│       ├── Compiler Extensions
+│       └── Conditional Compilation
+│
+├── 🟥 GROUP 57 — SECURE C PROGRAMMING
+│   ├── 222. MEMORY SECURITY
+│   │   ├── Buffer Overflow
+│   │   ├── Use-After-Free
+│   │   ├── Double Free
+│   │   └── Dangling Pointers
+│   │
+│   ├── 223. INPUT SECURITY
+│   │   ├── Input Validation
+│   │   ├── Bounds Checking
+│   │   ├── Format Validation
+│   │   └── Safe Parsing
+│   │
+│   ├── 224. INTEGER SECURITY
+│   │   ├── Integer Overflow
+│   │   ├── Integer Underflow
+│   │   ├── Truncation
+│   │   └── Signedness Errors
+│   │
+│   └── 225. SECURE DESIGN
+│       ├── Least Privilege
+│       ├── Defensive Programming
+│       ├── Secure Resource Handling
+│       └── Threat Modeling
+│
+├── 🟥 GROUP 58 — C VULNERABILITIES
+│   ├── 226. MEMORY VULNERABILITIES
+│   │   ├── Stack Overflow
+│   │   ├── Heap Overflow
+│   │   ├── Out-of-Bounds Access
+│   │   └── Use-After-Free
+│   │
+│   ├── 227. PROGRAMMING VULNERABILITIES
+│   │   ├── Format String Bugs
+│   │   ├── Integer Bugs
+│   │   ├── Uninitialized Memory
+│   │   └── Null Dereference
+│   │
+│   └── 228. CONCURRENCY VULNERABILITIES
+│       ├── Data Race
+│       ├── Race Condition
+│       ├── Deadlock
+│       └── TOCTOU
+│
+├── 🟥 GROUP 59 — CODING STANDARDS
+│   ├── 229. C CODING STANDARDS
+│   │   ├── Naming
+│   │   ├── Formatting
+│   │   ├── Documentation
+│   │   └── Code Organization
+│   │
+│   ├── 230. MISRA C
+│   │   ├── Safety Rules
+│   │   ├── Restricted Constructs
+│   │   ├── Static Analysis
+│   │   └── Automotive C
+│   │
+│   ├── 231. CERT C
+│   │   ├── Secure Coding
+│   │   ├── Integer Safety
+│   │   ├── Memory Safety
+│   │   └── Error Handling
+│   │
+│   └── 232. INDUSTRY STANDARDS
+│       ├── Safety-Critical Development
+│       ├── Defensive Coding
+│       ├── Coding Guidelines
+│       └── Compliance
+│
+├── 🟥 GROUP 60 — C API & LIBRARY ENGINEERING
+│   ├── 233. API DESIGN
+│   │   ├── Public APIs
+│   │   ├── Function Contracts
+│   │   ├── Error Contracts
+│   │   └── Ownership Contracts
+│   │
+│   ├── 234. OPAQUE TYPES
+│   │   ├── Forward Declarations
+│   │   ├── Private Structures
+│   │   ├── create / destroy
+│   │   └── Encapsulation
+│   │
+│   ├── 235. CALLBACK APIs
+│   │   ├── Function Pointers
+│   │   ├── User Context
+│   │   ├── Event Callbacks
+│   │   └── Async Callbacks
+│   │
+│   └── 236. RESOURCE MANAGEMENT
+│       ├── Acquire / Release
+│       ├── Ownership
+│       ├── Cleanup
+│       └── Error Rollback
+│
+├── 🟥 GROUP 61 — C LIBRARY DEVELOPMENT
+│   ├── 237. STATIC LIBRARY DEVELOPMENT
+│   │   ├── Header API
+│   │   ├── Object Files
+│   │   ├── Archive
+│   │   └── Installation
+│   │
+│   ├── 238. SHARED LIBRARY DEVELOPMENT
+│   │   ├── Shared Objects
+│   │   ├── Exported Symbols
+│   │   ├── Symbol Visibility
+│   │   └── ABI Stability
+│   │
+│   ├── 239. LIBRARY VERSIONING
+│   │   ├── API Versioning
+│   │   ├── ABI Versioning
+│   │   ├── Semantic Versioning
+│   │   └── Compatibility
+│   │
+│   └── 240. C PACKAGE DESIGN
+│       ├── Include Directory
+│       ├── Library Directory
+│       ├── pkg-config
+│       └── CMake Package Config
+│
+├── 🟥 GROUP 62 — CROSS-PLATFORM DEVELOPMENT
+│   ├── 241. OS ABSTRACTION
+│   │   ├── Platform APIs
+│   │   ├── Wrapper Functions
+│   │   ├── Platform Layers
+│   │   └── Conditional Compilation
+│   │
+│   ├── 242. COMPILER PORTABILITY
+│   │   ├── GCC
+│   │   ├── Clang
+│   │   ├── MSVC
+│   │   └── Embedded Compilers
+│   │
+│   └── 243. BUILD PORTABILITY
+│       ├── CMake
+│       ├── Toolchain Files
+│       ├── Cross Builds
+│       └── CI Matrix
+│
+├── 🟥 GROUP 63 — INTEROPERABILITY
+│   ├── 244. C / C++
+│   │   ├── extern "C"
+│   │   ├── C ABI
+│   │   ├── C Libraries from C++
+│   │   └── C++ Libraries Exposed to C
+│   │
+│   ├── 245. C / ASSEMBLY
+│   │   ├── Assembly Functions
+│   │   ├── ABI
+│   │   ├── Registers
+│   │   └── Inline Assembly
+│   │
+│   ├── 246. C / OTHER LANGUAGES
+│   │   ├── Python FFI
+│   │   ├── Java JNI
+│   │   ├── .NET Native Interop
+│   │   └── Rust FFI
+│   │
+│   └── 247. FOREIGN FUNCTION INTERFACES
+│       ├── ABI Boundaries
+│       ├── Struct Layout
+│       ├── Calling Convention
+│       └── Memory Ownership
+│
+├── 🟥 GROUP 64 — SYSTEM & LOW-LEVEL DEVELOPMENT
+│   ├── 248. OPERATING SYSTEM DEVELOPMENT
+│   │   ├── Kernel Concepts
+│   │   ├── Memory Management
+│   │   ├── Process Management
+│   │   └── Device Drivers
+│   │
+│   ├── 249. DEVICE DRIVERS
+│   │   ├── Character Devices
+│   │   ├── Block Devices
+│   │   ├── Hardware Interfaces
+│   │   └── Kernel APIs
+│   │
+│   ├── 250. FIRMWARE
+│   │   ├── Boot Code
+│   │   ├── Startup
+│   │   ├── Peripheral Drivers
+│   │   └── Firmware Update
+│   │
+│   └── 251. SYSTEM UTILITIES
+│       ├── Shells
+│       ├── File Utilities
+│       ├── Process Utilities
+│       └── System Monitors
+│
+├── 🟫 GROUP 65 — C APPLICATION DOMAINS
+│   ├── 252. OPERATING SYSTEMS
+│   │   ├── Kernel Development
+│   │   ├── System Libraries
+│   │   ├── Drivers
+│   │   └── System Utilities
+│   │
+│   ├── 253. EMBEDDED SYSTEMS
+│   │   ├── Firmware
+│   │   ├── Automotive
+│   │   ├── Industrial
+│   │   └── IoT Devices
+│   │
+│   ├── 254. NETWORKING SOFTWARE
+│   │   ├── Network Services
+│   │   ├── Protocol Implementations
+│   │   ├── Network Tools
+│   │   └── High-Performance Networking
+│   │
+│   └── 255. HIGH-PERFORMANCE SOFTWARE
+│       ├── Databases
+│       ├── Compilers
+│       ├── Game Engines
+│       ├── Graphics
+│       └── Scientific Computing
+│
+├── 🟫 GROUP 66 — DATABASE & STORAGE SYSTEMS
+│   ├── 256. DATABASE PROGRAMMING
+│   │   ├── SQLite
+│   │   ├── PostgreSQL C APIs
+│   │   ├── MySQL C APIs
+│   │   └── Database Client Libraries
+│   │
+│   ├── 257. STORAGE PROGRAMMING
+│   │   ├── File Systems
+│   │   ├── Block Storage
+│   │   ├── Memory-Mapped Storage
+│   │   └── Storage Engines
+│   │
+│   └── 258. DATABASE ENGINEERING
+│       ├── B-Trees
+│       ├── LSM Trees
+│       ├── Buffer Pools
+│       ├── WAL
+│       └── Query Processing
+│
+├── 🟫 GROUP 67 — GRAPHICS, GAMES & MEDIA
+│   ├── 259. GRAPHICS PROGRAMMING
+│   │   ├── OpenGL
+│   │   ├── Vulkan
+│   │   ├── SDL
+│   │   └── GLFW
+│   │
+│   ├── 260. GAME DEVELOPMENT
+│   │   ├── Game Loops
+│   │   ├── Physics
+│   │   ├── Rendering
+│   │   └── Input
+│   │
+│   └── 261. MEDIA PROGRAMMING
+│       ├── Audio
+│       ├── Video
+│       ├── Image Processing
+│       └── Codecs
+│
+├── 🟫 GROUP 68 — COMPILER & LANGUAGE DEVELOPMENT
+│   ├── 262. COMPILER DEVELOPMENT
+│   │   ├── Lexer
+│   │   ├── Parser
+│   │   ├── AST
+│   │   ├── Semantic Analysis
+│   │   └── Code Generation
+│   │
+│   ├── 263. INTERPRETERS
+│   │   ├── Bytecode
+│   │   ├── Virtual Machine
+│   │   ├── AST Interpreter
+│   │   └── Runtime
+│   │
+│   └── 264. LANGUAGE TOOLS
+│       ├── Lexers
+│       ├── Parsers
+│       ├── Formatters
+│       └── Static Analyzers
+│
+├── 🟫 GROUP 69 — DOCUMENTATION & DEVELOPMENT PRACTICES
+│   ├── 265. DOCUMENTATION
+│   │   ├── Function Documentation
+│   │   ├── API Documentation
+│   │   ├── README
+│   │   └── Doxygen
+│   │
+│   ├── 266. CODE REVIEW
+│   │   ├── Review Process
+│   │   ├── Static Analysis
+│   │   ├── Security Review
+│   │   └── Performance Review
+│   │
+│   └── 267. PROJECT ORGANIZATION
+│       ├── Source Layout
+│       ├── Include Layout
+│       ├── Build Layout
+│       └── Test Layout
+│
+├── 🟫 GROUP 70 — GIT & VERSION CONTROL
+│   ├── 268. GIT FUNDAMENTALS
+│   │   ├── init
+│   │   ├── clone
+│   │   ├── add
+│   │   ├── commit
+│   │   └── push / pull
+│   │
+│   ├── 269. BRANCHING
+│   │   ├── Branches
+│   │   ├── Merge
+│   │   ├── Rebase
+│   │   └── Conflict Resolution
+│   │
+│   └── 270. PROFESSIONAL GIT
+│       ├── Pull Requests
+│       ├── Code Review
+│       ├── Tags
+│       ├── Releases
+│       └── Git Hooks
+│
+├── 🟫 GROUP 71 — CI/CD & AUTOMATION
+│   ├── 271. CONTINUOUS INTEGRATION
+│   │   ├── Build
+│   │   ├── Test
+│   │   ├── Static Analysis
+│   │   └── Sanitizers
+│   │
+│   ├── 272. MULTI-PLATFORM CI
+│   │   ├── Linux
+│   │   ├── Windows
+│   │   ├── macOS
+│   │   └── Embedded Targets
+│   │
+│   └── 273. RELEASE ENGINEERING
+│       ├── Debug Builds
+│       ├── Release Builds
+│       ├── Packaging
+│       └── Versioning
+│
+├── 🟫 GROUP 72 — C STANDARDS & EVOLUTION
+│   ├── 274. HISTORICAL C
+│   │   ├── BCPL
+│   │   ├── B
+│   │   ├── K&R C
+│   │   └── Traditional C
+│   │
+│   ├── 275. ISO C STANDARDS
+│   │   ├── C89 / C90
+│   │   ├── C95
+│   │   ├── C99
+│   │   ├── C11
+│   │   ├── C17
+│   │   └── C23
+│   │
+│   └── 276. STANDARD EVOLUTION
+│       ├── Language Changes
+│       ├── Library Changes
+│       ├── Defect Reports
+│       └── Compiler Support
+│
+├── 🟥 GROUP 73 — C23 MODERN C
+│   ├── 277. C23 LANGUAGE FEATURES
+│   │   ├── nullptr
+│   │   ├── constexpr
+│   │   ├── typeof
+│   │   ├── typeof_unqual
+│   │   ├── Binary Literals
+│   │   └── Digit Separators
+│   │
+│   ├── 278. C23 SYNTAX
+│   │   ├── Modern Declarations
+│   │   ├── Attributes
+│   │   ├── Enumeration Improvements
+│   │   └── Modern Boolean Syntax
+│   │
+│   └── 279. C23 LIBRARY
+│       ├── Modern Library APIs
+│       ├── Improved Unicode Support
+│       ├── Modern Headers
+│       └── Implementation Support
+│
+├── 🟥 GROUP 74 — C STANDARD SEMANTICS & BEHAVIOR
+│   ├── 280. UNDEFINED BEHAVIOR
+│   │   ├── Null Dereference
+│   │   ├── Out-of-Bounds
+│   │   ├── Signed Overflow
+│   │   ├── Use-After-Free
+│   │   └── Invalid Pointer Usage
+│   │
+│   ├── 281. IMPLEMENTATION-DEFINED BEHAVIOR
+│   │   ├── char Signedness
+│   │   ├── Integer Representation
+│   │   ├── Type Sizes
+│   │   └── Implementation Choices
+│   │
+│   ├── 282. UNSPECIFIED BEHAVIOR
+│   │   ├── Multiple Permitted Results
+│   │   ├── Evaluation Choices
+│   │   └── Implementation Freedom
+│   │
+│   └── 283. PORTABLE SEMANTICS
+│       ├── Standard-Conforming C
+│       ├── Hosted Environment
+│       ├── Freestanding Environment
+│       └── Implementation Extensions
+│
+├── 🟥 GROUP 75 — C EXECUTION ENVIRONMENT
+│   ├── 284. HOSTED C
+│   │   ├── Operating System
+│   │   ├── Standard Library
+│   │   ├── main()
+│   │   └── Runtime Environment
+│   │
+│   ├── 285. FREESTANDING C
+│   │   ├── Embedded Systems
+│   │   ├── Boot Code
+│   │   ├── Limited Library
+│   │   └── Hardware Runtime
+│   │
+│   └── 286. EXECUTION MODEL
+│       ├── Program Startup
+│       ├── Runtime Initialization
+│       ├── Program Termination
+│       └── Environment Interaction
+│
+├── 🟥 GROUP 76 — C INTEROPERABILITY & FFI
+│   ├── 287. C ABI INTEROPERABILITY
+│   │   ├── Calling Conventions
+│   │   ├── Struct ABI
+│   │   ├── Primitive ABI
+│   │   └── Symbol ABI
+│   │
+│   ├── 288. FOREIGN LANGUAGES
+│   │   ├── C++
+│   │   ├── Rust
+│   │   ├── Python
+│   │   ├── Java
+│   │   └── .NET
+│   │
+│   └── 289. NATIVE API DESIGN
+│       ├── C-Compatible Interfaces
+│       ├── Handles
+│       ├── Ownership Rules
+│       └── Error Boundaries
+│
+├── 🟫 GROUP 77 — ADVANCED C ENGINEERING
+│   ├── 290. CUSTOM MEMORY ALLOCATORS
+│   │   ├── Arena Allocator
+│   │   ├── Pool Allocator
+│   │   ├── Slab Allocator
+│   │   └── Free Lists
+│   │
+│   ├── 291. HIGH-PERFORMANCE C
+│   │   ├── Cache Optimization
+│   │   ├── SIMD
+│   │   ├── Lock-Free Algorithms
+│   │   └── Zero-Copy Programming
+│   │
+│   ├── 292. SYSTEM ARCHITECTURE
+│   │   ├── Memory Architecture
+│   │   ├── CPU Architecture
+│   │   ├── I/O Architecture
+│   │   └── Hardware Interaction
+│   │
+│   └── 293. PRODUCTION C
+│       ├── Reliability
+│       ├── Maintainability
+│       ├── Observability
+│       └── Long-Term Support
+│
+├── 🟫 GROUP 78 — REAL-WORLD C PROJECTS
+│   ├── 294. BEGINNER PROJECTS
+│   │   ├── Calculator
+│   │   ├── Quiz
+│   │   ├── Contact Manager
+│   │   ├── Student Management
+│   │   └── Matrix Calculator
+│   │
+│   ├── 295. INTERMEDIATE PROJECTS
+│   │   ├── Text Editor
+│   │   ├── CSV Parser
+│   │   ├── Logging Library
+│   │   ├── Dynamic Array
+│   │   └── Hash Table
+│   │
+│   ├── 296. SYSTEM PROJECTS
+│   │   ├── Unix Shell
+│   │   ├── HTTP Server
+│   │   ├── TCP Server
+│   │   ├── Thread Pool
+│   │   └── Process Monitor
+│   │
+│   ├── 297. ADVANCED PROJECTS
+│   │   ├── JSON Parser
+│   │   ├── Database Engine
+│   │   ├── Memory Allocator
+│   │   ├── Compiler
+│   │   └── Interpreter
+│   │
+│   └── 298. EMBEDDED PROJECTS
+│       ├── LED Controller
+│       ├── Sensor Driver
+│       ├── UART Driver
+│       ├── I2C / SPI Driver
+│       └── RTOS Application
+│
+├── 🟫 GROUP 79 — C INTERVIEW & PROBLEM SOLVING
+│   ├── 299. CORE C QUESTIONS
+│   │   ├── Data Types
+│   │   ├── Operators
+│   │   ├── Functions
+│   │   ├── Arrays
+│   │   └── Strings
+│   │
+│   ├── 300. POINTER QUESTIONS
+│   │   ├── Pointer
+│   │   ├── Pointer-to-Pointer
+│   │   ├── Function Pointer
+│   │   ├── Array Pointer
+│   │   └── const / restrict
+│   │
+│   ├── 301. MEMORY QUESTIONS
+│   │   ├── Stack
+│   │   ├── Heap
+│   │   ├── malloc / calloc / realloc
+│   │   ├── Memory Leak
+│   │   └── Dangling Pointer
+│   │
+│   └── 302. ADVANCED QUESTIONS
+│       ├── Undefined Behavior
+│       ├── Aliasing
+│       ├── Alignment
+│       ├── ABI
+│       ├── Atomics
+│       └── Memory Ordering
+│
+└── 🟪 GROUP 80 — COMPLETE C MASTERy
+    ├── 303. CORE C MASTERY
+    │   ├── Language
+    │   ├── Types
+    │   ├── Functions
+    │   ├── Pointers
+    │   └── Memory
+    │
+    ├── 304. SYSTEM C MASTERY
+    │   ├── POSIX
+    │   ├── Linux
+    │   ├── Processes
+    │   ├── Threads
+    │   ├── IPC
+    │   └── Networking
+    │
+    ├── 305. EMBEDDED C MASTERY
+    │   ├── Microcontrollers
+    │   ├── Registers
+    │   ├── Interrupts
+    │   ├── Peripherals
+    │   └── RTOS
+    │
+    ├── 306. PROFESSIONAL C MASTERY
+    │   ├── Libraries
+    │   ├── ABI
+    │   ├── Build Systems
+    │   ├── Testing
+    │   ├── Security
+    │   └── Performance
+    │
+    └── 307. EXPERT C ENGINEERING
+        ├── Compiler Internals
+        ├── Linker Internals
+        ├── Operating Systems
+        ├── Firmware
+        ├── High-Performance Computing
+        └── Production Systems
+```
+
+
 # C Programming — 100% Complete Syllabus
 
 ## Complete Beginner → Advanced → System Programming → Embedded → Professional C Roadmap
